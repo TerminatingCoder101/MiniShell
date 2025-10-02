@@ -24,7 +24,7 @@ def builtin_explain(cmd):
     return ask_ai(f"Explain what this shell command does:\n\n{cmd}")
 
 def builtin_nl_command(nl):
-    return ask_ai(f"Translate this natural language instruction into a Linux shell command:\n\n{nl}")
+    return ask_ai(f"Translate this natural language instruction into a Linux shell command and make it brief (no explanatations, just the command):\n\n{nl}")
 
 def builtin_history_search(term):
     histfile = os.path.expanduser("~/.ai_shell_history")
