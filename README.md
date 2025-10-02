@@ -1,11 +1,11 @@
 ```markdown
-# AI Shell
+# AI Mini Shell
 
 An intelligent shell augmentation leveraging Google Gemini to provide AI-powered features directly within your command-line interface. This script enhances your shell experience by integrating AI capabilities for command explanation, natural language command generation, debugging, output summarization, and more.
 
 ## Features
 
-The AI Shell extends your standard command-line usage with the following intelligent functionalities:
+The AI Mini Shell extends your standard command-line usage with the following intelligent functionalities:
 
 *   **Explain Commands (`<command>?`)**: Get a natural language explanation of what a shell command does.
     *   Example: `ls -l?`
@@ -13,7 +13,7 @@ The AI Shell extends your standard command-line usage with the following intelli
 *   **Natural Language to Command (`nl <instruction>`)**: Translate a natural language instruction into a Linux shell command.
     *   Example: `nl list all python files in the current directory`
 
-*   **History Search (`history search <term>`)**: Search through your AI Shell command history for a specific term.
+*   **History Search (`history search <term>`)**: Search through your AI Mini Shell command history for a specific term.
     *   Example: `history search git`
 
 *   **Debug Command Output (`debug <command>`)**: Run a command and if it fails, get an AI explanation of the error and a suggested fix.
@@ -67,9 +67,9 @@ This shell relies on the Google Gemini API. You need to obtain an API key and ma
 
 ## Usage
 
-1.  **Start the AI Shell**:
+1.  **Start the AI Mini Shell**:
     ```bash
-    ./ai_shell.py
+    ./mini_shell.py
     ```
     You will see a prompt: `>> `.
 
@@ -129,7 +129,7 @@ This shell relies on the Google Gemini API. You need to obtain an API key and ma
 
 ## History Management
 
-The AI Shell automatically records all commands you type into a history file located at `~/.ai_shell_history`. You can search this history using the `history search <term>` command.
+The AI Mini Shell automatically records all commands you type into a history file located at `~/.ai_shell_history`. You can search this history using the `history search <term>` command.
 
 ## AI Model
 
